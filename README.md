@@ -1,9 +1,9 @@
-# A Dll Shellcode Loader POC
+# A DLL Shellcode Loader POC
 
 ![image](Images/loader.png)
 
 # Techniques used:
-- NTDLL unhooking
+- NTDLL.dll unhooking
 - Anti analysis by self deleting after execution
 - [Threadless injection](https://github.com/CCob/ThreadlessInject) with  with HWBP
 - Remote payload download over HTTPs with a customed header for authtication
