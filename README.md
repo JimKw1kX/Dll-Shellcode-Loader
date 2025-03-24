@@ -2,7 +2,7 @@
 
 ![image](Images/loader.png)
 
-Techniques used
+# Techniques used:
 - NTDLL unhooking
 - Anti analysis by self deleting after execution
 - [Threadless injection](https://github.com/CCob/ThreadlessInject) with  with HWBP
