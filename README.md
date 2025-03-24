@@ -1,5 +1,5 @@
-# Dll-Shellcode-Loader
-Dll Shellcode Loader POC
+# A Dll Shellcode Loader POC
+
 ![image](Images/loader.png)
 
 Techniques used
