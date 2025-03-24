@@ -12,7 +12,7 @@ Techniques used
 
 Compile in Visual Studio -> `x64` -> `Release`
 
-⚠️ Disclaimer: Also tweak your code during an enagament, this is just a POC but its not good to add everything in one loader. Its better to use stagers to prevent the main C2 shellcode gets burnt. 
+⚠️ Disclaimer: Always tweak the code during an enagament, this is just a POC but its not good to add everything in one loader. Its better to use stagers to prevent the main C2 shellcode gets burnt. 
 
 
 Click [here](https://drive.google.com/file/d/1LenFbhhj8n7esZXn6NXPdZ-pDy8bTdjx/view) to see the full demo.
