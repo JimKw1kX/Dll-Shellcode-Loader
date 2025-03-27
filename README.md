@@ -7,6 +7,8 @@
 
 # Techniques used:
 - NTDLL.dll unhooking
+- Indirect Syscalls
+- Rop Gadgets 
 - Anti analysis by self deleting after execution
 - [Threadless injection](https://github.com/CCob/ThreadlessInject) with  with HWBP
 - Remote payload download over HTTPs with a customed header for authtication
