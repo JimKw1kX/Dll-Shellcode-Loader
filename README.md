@@ -51,7 +51,7 @@ rundll32.exe Dllloader.dll,run
 
 # 💡Tips:
 
-- Use the [signtool](./signtool/) to sign a ceritifcate on the DLL some EDRs flag unsigned dlls straightaway such as Elastic and change the date similar to the orginal 
+- Use the [signtool](./signtool/) to sign a ceritifcate on the DLL some EDRs flag unsigned dlls straightaway such as Elastic and change the date similar to the orginal dll
 
 ![elastic](./Images/Elastic.png)
 
