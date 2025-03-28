@@ -31,7 +31,7 @@ rundll32.exe Dllloader.dll,run
 
 # **Sideload [Notepad++](https://notepad-plus-plus.org/)**
 
-1. Add `#Define NOTEPAD` on the top of [dllmain.c](https://github.com/JimKw1kX/Dll-Shellcode-Loader/blob/main/DllLoader/DllLoader/dllmain.c) as the entry point is defined in [here](https://github.com/JimKw1kX/Dll-Shellcode-Loader/blob/main/DllLoader/DllLoader/dllmain.c#L122)
+1. Add `#Define NOTEPAD` on the top of [dllmain.c](https://github.com/JimKw1kX/Dll-Shellcode-Loader/blob/main/DllLoader/DllLoader/dllmain.c) as the entry point is defined in [here](https://github.com/JimKw1kX/Dll-Shellcode-Loader/blob/main/DllLoader/DllLoader/dllmain.c#L212)
 
 2. Rename `Dllloader.dll` to `libcurl.dll` and place it in [updater](./updater/) folder
 
