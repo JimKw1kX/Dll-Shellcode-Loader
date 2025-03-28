@@ -36,7 +36,7 @@ rundll32.exe Dllloader.dll,run
 
 2. Rename `Dllloader.dll` to `libcurl.dll` and place it in [updater](./updater/) folder
 
-3. Run `updater.exe` in the update folder to sideload the dll
+3. Run `updater.exe` in the [updater](./updater/) folder to sideload the dll
 
 # **Sideload [OpenHardwareMonitor](https://openhardwaremonitor.org/)**
 
@@ -45,7 +45,7 @@ rundll32.exe Dllloader.dll,run
 
 2. Rename `Dllloader.dll` to `DWrite.dll` and place it in [OpenHardwareMonitor](./OpenHardwareMonitor/OpenHardwareMonitor/) folder
 
-3. Run `OpenHardwareMonitor.exe` in the update folder to sideload the dll
+3. Run `OpenHardwareMonitor.exe` in the [OpenHardwareMonitor](./OpenHardwareMonitor/OpenHardwareMonitor/) folder to sideload the dll
 
 
 
