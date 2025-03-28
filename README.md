@@ -51,7 +51,7 @@ rundll32.exe Dllloader.dll,run
 
 # 💡Tips:
 
-- Use the [signtool](./signtool/) to sign a certificate on the DLL due to some EDRs flag unsigned dlls straightaway such as Elastic once the loader drops on the disk. Also change the dates similar to the orginal dll that being replaced.
+- Use the [signtool](./signtool/) to sign a certificate on the DLL due to some EDRs flag unsigned dlls straightaway such as Elastic once the loader drops on the disk. Also change the dates similar to the orginal dll that has been replaced.
 
 ![elastic](./Images/Elastic.png)
 
