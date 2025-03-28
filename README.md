@@ -116,7 +116,7 @@ END
 
 
 # ⚠️ Disclaimer: 
-Always tweak the code during an enagament, this is just a POC but its not good to add everything in one loader. Its better to use stagers to prevent the main C2 shellcode gets burnt. 
+Always tweak the code during an red team engagement, this is just a POC and its not a good idea to add everything in one loader. Its better to use stagers to prevent the main C2 shellcode gets burnt. 
 
 # Video Demo
 
