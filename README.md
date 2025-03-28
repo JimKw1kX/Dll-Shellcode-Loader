@@ -72,7 +72,7 @@ $(Get-Item $x).lastwritetime=$(Get-Date "03/3/2022")
 $(Get-Item $x).lastaccesstime=$(Get-Date "07/23/2024")
 ```
 
-- **Add metadata to the DLL and do not leave it blank
+- **Add metadata to the DLL and do not leave it blank**
 
 
 Add a `Resource.rc` file in Visual Studio and the following metadata for `DWrite.dll` so it looks like this
