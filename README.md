@@ -24,7 +24,8 @@ Compile in Visual Studio -> `x64` -> `Release`
 
 Add `#Define badger` on the top of [dllmain.c](https://github.com/JimKw1kX/Dll-Shellcode-Loader/blob/main/DllLoader/DllLoader/dllmain.c) as the entry point is defined in [here](https://github.com/JimKw1kX/Dll-Shellcode-Loader/blob/main/DllLoader/DllLoader/dllmain.c#L199)
 
-then run by
+Run as:
+
 ```js
 rundll32.exe Dllloader.dll,run
 ```
